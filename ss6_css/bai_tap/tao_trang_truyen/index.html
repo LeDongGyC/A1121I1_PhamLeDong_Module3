@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 1.5rem;
+        }
+        html{
+            font-size: 62.5%;
+        }
+        h1{
+            text-transform: uppercase;
+            text-align: center;
+            width: 50rem;
+            margin: 0 auto;
+            text-shadow: 3px 3px 9px rgb(117, 211, 145);
+            background-image: linear-gradient(to left,rgb(211, 117, 117), rgba(0, 0, 255, 0.66));
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+        th{
+            text-transform: capitalize;
+            text-align: center;
+        }
+        p{
+            width: 80rem;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-word;
+
+        }
+        h3{
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 9px rgb(117, 211, 145);
+            background-image: linear-gradient(to left,rgb(211, 117, 117), rgba(0, 0, 255, 0.66));
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+
+        }
+        table{
+            margin: 0 auto;
+        }
+        /* p:hover{
+            color: yellow;
+        } */
+        th, td {
+            padding: 1rem;
+        }
+        a{
+         text-decoration: none;
+        }
+        a:hover{
+            color: blue;
+        }
+        
+        /* .truyen1{
+            position: relative;
+        } 
+        .hienra{
+            position: absolute;
+            z-index: 5;
+            opacity: 0; 
+            transition: all 1s ease-in-out;
+        }  
+        .hienra span{
+        position: absolute;
+        color: white;
+        top: 50%;
+        margin: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+}
+        
+        .truyen1:hover{
+            opacity: 0;
+            position: absolute;
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 2s;
+        }
+        .truyen1:hover .span{
+            visibility: visible;
+            opacity: 1;
+        } */
+    /* .hover-line{
+            position: relative;
+            height: 300px;
+            border-radius: 15px;
+            background-color: #ff5f5f;
+    }
+
+    .hover-line p{
+        font-size: 34px;
+        line-height: 96px;
+        text-align: center;
+    }
+
+.animation-1 {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        left: 0;
+        z-index: 5;
+        padding: 25px;
+        opacity: 0; 
+        transition: all 1s ease-in-out;
+        font-size: 28px;
+        background: rgba(0, 0, 0, 0.46);
+}
+
+    .animation-1 h2{
+        position: absolute;
+        color: white;
+        top: 50%;
+        margin: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hover-line:hover .animation-1{
+        opacity: 1;
+    } */
+    </style>
+</head>
+<body>
+    <h1>thư viện truyện online</h1>
+    <h3>danh sách truyện</h3>
+    <table border="1" style="border-collapse: collapse;">
+        <tr>
+            <th style="width: 27rem;">tên truyện</th>
+            <th style="width: 60rem;height: 0rem">tóm tắt</th>
+        </tr>
+        <tr>
+            <th> <a href="https://truyenfull.vn/linh-vu-thien-ha/" target="_blank">linh vũ thiên mục</a></th>
+            <th> 
+                <div class="hover-line">
+                    <p>Lục Thiếu Du, linh hồn bị xuyên qua đến thế giới khác, nhập vào thân thể của một thiếu gia không có địa vị phải trải qua cuộc sống không khác gì nô bộc.Thế giới này lấy Vũ vi cường, lấy Linh vi tôn, nghe đồn khi <a href="https://truyenfull.vn/linh-vu-thien-ha/" target="_blank">Đọc thêm</a> võ đạo đỉnh phong, linh đạo đạt đến cực hạn có thể phá toái hư không.Lục Thiếu Du mang theo ký ức từ kiếp trước tái sinh, không cam lòng làm một thiếu gia chẳng khác gì củi mục.</p>
+                    <!-- <div class="animation-1"><h2>đọc ngay</h2> </div> -->
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <th><a href="https://truyenfull.vn/than-dao-dan-ton/" target="_blank">thần đạo đạn tôn</a></th>
+            <th>
+                <p>Lăng Hàn-Một Đan Đế đại danh đỉnh định mang trong thân mình tuyệt thế công pháp vì truy cầu bước cuối, xé bỏ tấm màn thành thần nhưng thất bại đã phải bỏ mình. Thế nhưng ông trời  không muốn tuyệt dường <a href="https://truyenfull.vn/than-dao-dan-ton/" target="_blank">Đọc thêm</a> người, Lăng Hàn đã được trọng sinh vào một thiếu niên cùng tên và điều may mắn nhất là "Bất Diệt Thiên Kinh" ấn ký vẫn còn nằm nguyên trong tâm thức hắn.
+                Từ nay về sau sóng gió cuộn trào nổi lên, Đan Đế ngày xưa bây giờ phải cùng tranh phong với vô số thiên tài trẻ tuổi, lại bắt đầu một truyền thuyết mới như để chứng minh với trời đất: Ta, là người mạnh nhất!</p>
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
