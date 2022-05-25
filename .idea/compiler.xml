@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="ss9_tong_quan_ung_dung_web.main" target="1.8" />
+      <module name="ss9_tong_quan_ung_dung_web.test" target="1.8" />
+      <module name="ss9_tong_quan_ung_dung_web.thuc_hanh" target="1.8" />
+      <module name="ss9_tong_quan_ung_dung_web.thuc_hanh.main" target="1.8" />
+      <module name="ss9_tong_quan_ung_dung_web.thuc_hanh.test" target="1.8" />
+      <module name="ss9_tong_quan_web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

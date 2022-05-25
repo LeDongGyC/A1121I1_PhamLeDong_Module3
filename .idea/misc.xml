@@ -3,6 +3,8 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ss9_tong_quan_ung_dung_web" />
+    <file type="web" url="file://$PROJECT_DIR$/ss9_tong_quan_web" />
+    <file type="web" url="file://$PROJECT_DIR$/untitled" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
