@@ -21,21 +21,21 @@ public class CustomerServiceImpl implements ICustomerService {
 
     @Override
     public void save(Customer customer) {
-
+        customerList.add(customer);
     }
 
     @Override
     public Customer findById(int id) {
-        return null;
+        return customerList.get(id);
     }
 
     @Override
     public void update(int id, Customer customer) {
-
+        customerList.set(id,customer);
     }
 
     @Override
     public void remove(int id) {
-
+        customerList.remove(id);
     }
 }
